@@ -41,7 +41,6 @@
 #include <paths.h>
 #include "defs.h"
 
-
 static struct pid {
 	struct pid *next;
 	FILE *fp;

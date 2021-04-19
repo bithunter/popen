@@ -1,6 +1,7 @@
 CFLAGS += -Wall -Wextra -pedantic -Werror
 CC = gcc
 
+
 %.o: %.c
 	$(CC) -c $^
 
